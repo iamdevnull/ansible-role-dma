@@ -1,6 +1,7 @@
 ---
 - name: install
   package: name=dma state=latest
+  changed_when: false
 
 - name: configure
   template:
